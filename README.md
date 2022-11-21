@@ -2,12 +2,12 @@ Problem Statement in Brief:
 Given the data of Enery consumption of past 10 years, forecast the Energy required for the next 3 years.
 
 Approach:
-1. Started with analysing the trend and and observe the clear correlation between "Energy" and "years".
+1. Started with analysing the trend and observed the clear correlation between "Energy" and "years" through data visualization.
 2. Interpolate the "Energy" to deal with missing data.
-3. Used the PolynomialFeatures and Linear Regression to learn the Trend.
+3. Used the PolynomialFeatures and LinearRegression to learn the Trend.
 4. Subtract this from orginal data.
 5. Implemented multi-output Random Forest(RF) with 24 hours of data. Forecast as per RF.
-6. Predict the Trend from forecasted o/p of RF with Earlier learnt Regression Model.
+6. Predict the Trend from forecasted o/p of RF with earlier learnt Regression Model.
 7. Subtract this from forecasted o/p of RF.
 
 Key Observations:
